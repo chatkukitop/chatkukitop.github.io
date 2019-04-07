@@ -24,7 +24,7 @@ if(element.keyCode==13){
             const itemli=document.createElement('li')//li
        itemli.className='d-flex align-items-end'
        const imgcallcenter=document.createElement('img')//img
-       imgcallcenter.src='imgs/img1.jpg'
+       imgcallcenter.src='img1.jpg'
        const messega=document.createElement('p')//p
        messega.innerText=inputmessega//temiz input elimde
        itemli.appendChild(imgcallcenter)
@@ -57,7 +57,7 @@ if(element.keyCode==13){
             const itemli=document.createElement('li')//li
             itemli.className='d-flex align-items-end justify-content-end userp'
             const imguser=document.createElement('img')//img
-            imguser.src='imgs/img2.png'
+            imguser.src='img2.png'
             const messega=document.createElement('p')//p
             messega.innerText=inputmessega//temiz input elimde
             itemli.appendChild(messega)
